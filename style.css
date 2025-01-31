@@ -1,0 +1,100 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* Branco */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #333333; /* Preto */
+}
+
+/* Cabeçalho */
+header {
+    background: #003366; /* Azul escuro */
+    color: white; /* Branco */
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    margin-bottom: 5px;
+    font-size: 28px;
+}
+
+/* Links e navegação */
+nav a {
+    color: white; /* Branco */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #003366; /* Azul escuro */
+}
+
+/* Seções */
+section {
+    background: #f0f0f0; /* Cinza claro */
+    color: #333333; /* Preto */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 100px auto 50px;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos */
+h2 {
+    color: #003366; /* Azul escuro */
+    margin-bottom: 10px;
+}
+
+/* Lista de áreas de atuação */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #003366; /* Azul escuro */
+    color: white; /* Branco */
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/* Botão de WhatsApp */
+.whatsapp {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #25D366;
+    color: white; /* Branco */
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.whatsapp:hover {
+    background: #1EBE5D; /* Verde */
+}
+
+/* Rodapé */
+footer {
+    background: #003366; /* Azul escuro */
+    color: white; /* Branco */
+    padding: 15px;
+    position: relative;
+    margin-top: 20px;
+}
